@@ -1,4 +1,5 @@
 import axios from "axios"
+
 import { useEffect, useState } from "react"
 import { Link, useNavigate } from "react-router-dom"
 
@@ -26,7 +27,7 @@ const Create = () => {
     const phone = e.target.phone.value
 
     axios.post('http://localhost:3000/users',{
-      "id":totalUser+1,
+      "id":`${totalUser+1}`,
       "name":name,
       "email":email,
       "phone":phone,

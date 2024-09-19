@@ -48,7 +48,7 @@ const Home = () => {
           <td>{user.phone}</td>
           <td>
           <Link to={`/read/${user.id}`}><button className="btn btn-primary ">Read</button></Link>
-          <button className="btn btn-info mx-4">Edit</button>
+          <Link to={`/update/${user.id}`}><button className="btn btn-info mx-4">Edit</button></Link>
           <button className="btn btn-error">Delete</button>
           </td>
         </tr>

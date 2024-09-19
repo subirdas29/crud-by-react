@@ -2,7 +2,7 @@
   "users": [
     {
       "id": "1",
-      "name": "Leanne Graham",
+      "name": "joy",
       "username": "Bret",
       "email": "Sincere@april.biz",
       "address": {
@@ -93,45 +93,16 @@
       }
     },
     {
-      "id": "5",
-      "name": "Chelsey Dietrich",
-      "username": "Kamren",
-      "email": "Lucio_Hettinger@annie.ca",
-      "address": {
-        "street": "Skiles Walks",
-        "suite": "Suite 351",
-        "city": "Roscoeview",
-        "zipcode": "33263",
-        "geo": {
-          "lat": "-31.8129",
-          "lng": "62.5342"
-        }
-      },
-      "phone": "(254)954-1289",
-      "website": "demarco.info",
-      "company": {
-        "name": "Keebler LLC",
-        "catchPhrase": "User-centric fault-tolerant solution",
-        "bs": "revolutionize end-to-end systems"
-      }
+      "name": "joy das",
+      "email": "joydas@gmail.com",
+      "phone": "123456789",
+      "id": "5"
     },
     {
-      "id": 6,
-      "name": "Subir Das Joy",
-      "email": "subirdas1045@gmail.com",
-      "phone": "01689586905"
-    },
-    {
-      "id": 7,
-      "name": "Sujit Kumar Das",
-      "email": "kanakdas209@gmail.com",
-      "phone": "01689586906"
-    },
-    {
-      "id": 8,
       "name": "SUBIR DAS",
       "email": "subirdas1045@gmail.com",
-      "phone": "01689586905"
+      "phone": "01689586905",
+      "id": "6"
     }
   ]
 }
