@@ -1,9 +1,10 @@
 import axios from "axios"
 import { useEffect, useState } from "react"
-import { Link } from "react-router-dom"
+import { Link} from "react-router-dom"
 
 
 const Home = () => {
+ 
 
     const [users,setUsers] = useState([])
     console.log(users)
@@ -14,6 +15,17 @@ const Home = () => {
          .catch(err=>console.log(err))
     },[])
    
+
+    const handleDelete = id =>{
+      const confirm = window.confirm('Are you want to delete it?')
+      if(confirm){
+        axios.delete(`http://localhost:3000/users/${id}`)
+      .then(res=>{
+        console.log(res)
+        setUsers((prevUsers) => prevUsers.filter((user) => user.id !== id).map((user,index)=>({...user,id:index+1})))})
+      .catch(err=>console.log(err))
+    }
+      }
 
   return (
     <div>
@@ -49,7 +61,7 @@ const Home = () => {
           <td>
           <Link to={`/read/${user.id}`}><button className="btn btn-primary ">Read</button></Link>
           <Link to={`/update/${user.id}`}><button className="btn btn-info mx-4">Edit</button></Link>
-          <button className="btn btn-error">Delete</button>
+          <button className="btn btn-error" onClick={()=>handleDelete(user.id)}>Delete</button>
           </td>
         </tr>
       ))
@@ -59,6 +71,9 @@ const Home = () => {
 </div>
     </div>
   )
+
+ 
+
 }
 
 export default Home

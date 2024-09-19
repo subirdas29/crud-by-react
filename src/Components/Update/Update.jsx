@@ -20,7 +20,7 @@ const Update = () => {
     axios.get(`http://localhost:3000/users/${id}`)
     .then(res=> setUser(res.data)) 
     .catch(err=>console.log(err))
-  },[])
+  },[id])
 
   // const totalUser = users.length
 
@@ -42,12 +42,7 @@ const Update = () => {
 
 const handleInputChange = e =>{
   const {name,value} = e.target
-
-  setUser((preUser)=>({
-    ...preUser, [name] : value
-  }))
-
-
+  setUser((preUser)=>({...preUser, [name] : value}))
 }
 
 

@@ -13,7 +13,7 @@ const Read = () => {
     axios.get(`http://localhost:3000/users/${id}`)
     .then(res=> setUser(res.data)) 
     .catch(err=>console.log(err))
-  },[])
+  },[id])
 
   return (
     <div>
