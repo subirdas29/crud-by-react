@@ -1,8 +1,7 @@
 {
-  "users":
-  [
+  "users": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Leanne Graham",
       "username": "Bret",
       "email": "Sincere@april.biz",
@@ -25,7 +24,7 @@
       }
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Ervin Howell",
       "username": "Antonette",
       "email": "Shanna@melissa.tv",
@@ -48,7 +47,7 @@
       }
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Clementine Bauch",
       "username": "Samantha",
       "email": "Nathan@yesenia.net",
@@ -71,7 +70,7 @@
       }
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Patricia Lebsack",
       "username": "Karianne",
       "email": "Julianne.OConner@kory.org",
@@ -94,7 +93,7 @@
       }
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Chelsey Dietrich",
       "username": "Kamren",
       "email": "Lucio_Hettinger@annie.ca",
@@ -115,6 +114,24 @@
         "catchPhrase": "User-centric fault-tolerant solution",
         "bs": "revolutionize end-to-end systems"
       }
+    },
+    {
+      "id": 6,
+      "name": "Subir Das Joy",
+      "email": "subirdas1045@gmail.com",
+      "phone": "01689586905"
+    },
+    {
+      "id": 7,
+      "name": "Sujit Kumar Das",
+      "email": "kanakdas209@gmail.com",
+      "phone": "01689586906"
+    },
+    {
+      "id": 8,
+      "name": "SUBIR DAS",
+      "email": "subirdas1045@gmail.com",
+      "phone": "01689586905"
     }
   ]
 }
